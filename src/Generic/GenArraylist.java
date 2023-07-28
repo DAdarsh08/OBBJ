@@ -1,7 +1,7 @@
 package Generic;
 
 import plolymorphism.Number;
-//if you cant understand:    Generics provide type checks at compile time,
+//if you cant understand:   Generics provide type checks at compile time,
 // and the produced bytecode only knows classes, methods and interfaces.
 // Bytecode is executed at runtime and objects are created at runtime as well,
 // Looking at bytecode, it doesn't contain the "type" of object we want to create, so it shows error.
