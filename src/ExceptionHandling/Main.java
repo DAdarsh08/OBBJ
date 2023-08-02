@@ -5,4 +5,5 @@ public class Main {
        // Demo d= new Demo();
         Demo.divide(5,0);
     }
+
 }

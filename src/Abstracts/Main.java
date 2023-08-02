@@ -7,9 +7,11 @@ public class Main {
         s.right();
         Daughter d= new Daughter("Nami");
         d.partner();
-        d.right();
+        d.right();// final member and methods can be inherited but cnnot override;
+        System.out.println(d.age);
         System.out.println(d.name);
         System.out.println(d.age);
+        Daughter.colleger();//static can be inherited but cannot override;
         //Parent a= new Parent();//we cannot create the object of Abstract class;
         Parent p= new Son("Luffy");//but you can creat a ref.type variabe and a object of type child class;
         s.partner();

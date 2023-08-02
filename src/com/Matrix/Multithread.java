@@ -1,7 +1,6 @@
 package com.Matrix;
 
-import com.threadex.Main;
-import com.threadex.Th;
+
 
 import java.util.Scanner;
 
@@ -21,7 +20,7 @@ public class Multithread {
         public void run() {
             for (int j = 0; j < max; j++) {
                 for (int k = 0; k < max; k++) {
-                    res[i][j] += mat1[i][k] * mat2[k][j];
+                    res[this.i][j] += mat1[i][k] * mat2[k][j];
                 }
             }
           /*  try {
@@ -37,6 +36,7 @@ public class Multithread {
     }
 
     public static void main(String[] args) {
+
         Scanner sc=new Scanner(System.in);
 
 

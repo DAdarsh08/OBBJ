@@ -10,14 +10,15 @@ public class Main {
        // System.out.println(obj3.w);
        // BoxWeight obj=new BoxWeight();
      //   System.out.println(obj.w);
-       BoxWeight obj1=new BoxWeight(5.5,6.7,9.0,10.0);
+       BoxWeight obj1=new BoxWeight();
+        System.out.println(obj1.w);
        // System.out.println(obj1.h);
        BoxWeight obj2=new BoxWeight(obj1);
         System.out.println(obj2.w);
         System.out.println(obj2.weight);
    //     System.out.println(super.weight);
        // System.out.println(obj1.l);
-       Box box1=new BoxWeight(3.4,5.5,8.0,9.0);// only ref type members can be accecs;
+       Box box1=new BoxWeight(3.4,5.5,5.5,9.0);// only ref type members can be accecs;
        System.out.println(box1.w);
       //  System.out.println(box1.weight);
       //  System.out.println(box1.weight);

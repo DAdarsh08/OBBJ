@@ -6,6 +6,8 @@ public class BoxWeight extends Box{
         this.weight=-1;
     }
 
+
+
     static void greeting()
     {
         System.out.println("boxweight");
@@ -33,5 +35,13 @@ public class BoxWeight extends Box{
     {
         super(side);
         this.weight=weight;
+    }
+
+    public static void main(String[] args) {
+        BoxWeight o=new BoxWeight(10.0,4.4,0,7.0);
+        System.out.println(o.h);
+        BoxWeight.greeting();
+        Box.greeting();
+
     }
 }
