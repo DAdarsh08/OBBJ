@@ -64,6 +64,8 @@ public class GenArraylist<T> {
         GenArraylist<Integer>list=new GenArraylist<Integer>();
         list.add(34);
         list.add(44);
+        GenArraylist<String>l=new GenArraylist<>();
+        l.add("harsh");
       //  list.add("addf");
         list.add(78);
         System.out.println(list);

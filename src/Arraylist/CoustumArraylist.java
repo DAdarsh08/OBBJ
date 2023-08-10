@@ -55,7 +55,7 @@ public class CoustumArraylist {
 
     public static void main(String[] args) {
         CoustumArraylist list=new CoustumArraylist();
-        list.add(34);
+        list.add(56);
         System.out.println(list);
         for (int i=1;i<=15;i++)
         {
