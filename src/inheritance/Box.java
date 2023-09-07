@@ -1,7 +1,7 @@
 package inheritance;
 
 public class Box {
-   private double l;
+     double l;
     double w;
     double h;
    // double side;

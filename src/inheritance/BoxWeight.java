@@ -39,9 +39,11 @@ public class BoxWeight extends Box{
 
     public static void main(String[] args) {
         BoxWeight o=new BoxWeight(10.0,4.4,0,7.0);
-        System.out.println(o.h);
-        BoxWeight.greeting();
-        Box.greeting();
+        System.out.println(o.l);
+//        BoxWeight.greeting();
+//        Box.greeting();
+        BoxWeight obj=new BoxWeight(o);
+        System.out.println(obj.l);
 
     }
 }

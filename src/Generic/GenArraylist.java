@@ -7,6 +7,7 @@ import plolymorphism.Number;
 // Looking at bytecode, it doesn't contain the "type" of object we want to create, so it shows error.
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class GenArraylist<T> {
@@ -65,6 +66,7 @@ public class GenArraylist<T> {
         list.add(34);
         list.add(44);
         GenArraylist<String>l=new GenArraylist<>();
+        ArrayList<Integer> k= new ArrayList<>();
         l.add("harsh");
       //  list.add("addf");
         list.add(78);

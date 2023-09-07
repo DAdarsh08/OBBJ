@@ -15,8 +15,8 @@ public class Example extends Thread {
         e1.start();
         Example e2 = new Example(500);
         e2.start();
-       e1.join();
-        e2.join();
+      // e1.join();
+      //  e2.join();
         System.out.println("Done");
     }
 
